@@ -13,9 +13,9 @@ class Employee(object):
     def __str__(self):
         return 'Full Name: ' + self.firstname + ' ' + self.lastname
 
-    # Implements behaviour for built in type comparison to int
+    # Implements behaviour for built-in type comparison to int
     def __int__(self):
-        return self.salary
+        return 'Salary:' + self.salary
 
     # For overloading the (==)
     def __eq__(self,other):
